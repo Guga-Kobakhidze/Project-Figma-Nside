@@ -334,11 +334,125 @@ p {
   gap: 230px;
   align-items: center;
   justify-content: center;
-  margin: 0 110px 120px;
+  margin: 0 110px 140px;
   padding: 52px 0 73px;
-  background: #F3F6FC;
+  background: #f3f6fc;
 }
 
 .four__section-down h3 {
-  color: #090B19;
+  color: #090b19;
+}
+
+/*****Fifth Section*****/
+
+.fifth__section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 200px;
+}
+
+.tipple__cards {
+  display: flex;
+  gap: 1px;
+}
+
+.tipple__cards .tripple__card,
+.tipple__cards .tripple__card2,
+.tipple__cards .tripple__card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 0 39px;
+  width: 470px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.tipple__cards .tripple__card:nth-child(1) {
+  background: url(images/tripplebg1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .tripple__card:hover:nth-child(1) {
+  transform: translateX(-10px);
+}
+
+.tipple__cards .tripple__card:nth-child(2) {
+  background: url(images/tripplebg2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-30px);
+}
+
+.tipple__cards .tripple__card:hover:nth-child(2) {
+  transform: translateY(-60px);
+}
+
+.tipple__cards .tripple__card:nth-child(3) {
+  background: url(images/tripplebg3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .tripple__card:hover:nth-child(3) {
+  transform: translateX(10px);
+}
+
+.tripple__card h3:first-child {
+  margin-bottom: 12px;
+}
+
+.tripple__card h3:nth-child(2){
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+  margin-bottom: 313px;
+}
+
+.tipple__cards .tripple__card2:nth-child(1) {
+  background: url(images/tripplebg4.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .tripple__card2:nth-child(2) {
+  background: url(images/tripplebg5.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .tripple__card2:nth-child(3) {
+  background: url(images/tripplebg6.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .tripple__card3:nth-child(1) {
+  background: url(images/tripplebg7.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .tripple__card3:nth-child(2) {
+  background: url(images/tripplebg8.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .tripple__card3:nth-child(3) {
+  background: url(images/tripplebg9.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
