@@ -359,7 +359,8 @@ p {
 
 .tipple__cards .tripple__card,
 .tipple__cards .tripple__card2,
-.tipple__cards .tripple__card3 {
+.tipple__cards .tripple__card3,
+.Section__seven-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -505,7 +506,7 @@ p {
   position: absolute;
   transform: rotate(-90deg);
   border-radius: 0;
-  border: 1px solid rgba(9, 11, 25, 0.5) ;
+  border: 1px solid rgba(9, 11, 25, 0.5);
 }
 .rotate__absolute:hover,
 .rotate__absolute2:hover {
@@ -521,4 +522,85 @@ p {
 .rotate__absolute2 {
   top: 385px;
   left: -105px;
+}
+
+/*****Seventh Section*****/
+
+.section7 {
+  margin-bottom: 280px;
+}
+
+.tipple__cards .Section__seven-card:nth-child(1) {
+  background: url(images/Sevenbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .Section__seven-card:nth-child(2) {
+  background: url(images/Sevenbg2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .Section__seven-card:nth-child(3) {
+  background: url(images/Sevenbg3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tipple__cards .Section__seven-card:nth-child(2) {
+  transform: translateY(80px);
+}
+
+.tipple__cards .Section__seven-card:nth-child(3) {
+  transform: translateY(160px);
+}
+
+.tipple__cards .Section__seven-card:hover:nth-child(1) {
+  transform: translateY(-40px);
+}
+
+.tipple__cards .Section__seven-card:hover:nth-child(2) {
+  transform: translateY(40px);
+}
+
+.tipple__cards .Section__seven-card:hover:nth-child(3) {
+  transform: translateY(100px);
+}
+
+.seven__card-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 327px;
+  padding: 0 24px;
+}
+
+.seven__card-inner h3:nth-child(1) {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+  color: #ffffff;
+}
+
+.social__media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+
+.social__icon {
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.social__icon:hover {
+  transform: scale(1.1);
 }
