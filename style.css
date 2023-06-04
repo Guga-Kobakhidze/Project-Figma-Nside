@@ -538,14 +538,14 @@ p {
 }
 
 .tipple__cards .Section__seven-card:nth-child(2) {
-  background: url(images/Sevenbg2.svg);
+  background: url(images/sevenbg2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .tipple__cards .Section__seven-card:nth-child(3) {
-  background: url(images/Sevenbg3.svg);
+  background: url(images/sevenbg3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
